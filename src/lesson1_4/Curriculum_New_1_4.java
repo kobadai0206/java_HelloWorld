@@ -23,11 +23,11 @@ public class Curriculum_New_1_4 {
 		byteNum = 0;
 		shortNum = 0;
 		intNum = 0;
-		longNum = 0;
+		longNum = 0l;
 		floatNum = 0.0f;
 		doubleNum = 0.0d;
 		CharStr = '\u0000';
-		str = "";
+		str = null;
 		bool = false;
 	     // Q3 初期化をしたそれぞれの変数に下記の値を代入してください
 	
@@ -51,17 +51,29 @@ public class Curriculum_New_1_4 {
 		bool = true;
 	     // Q4 下記の通りにコンソール出力されるようにしてください
 	     // 必ず変数を使用すること
+		
+		// 20.0
+	    // a ハロー true
+	    // 11130.0                    数字を全て足す
+		// 11110
+   	 	// 10000000000                小数点以外の数字を全てかける
+   	 	// 0.105                      10.5割る100をする
+   	 	// -90                        10引く100をする
 	
-	     // 11110
+	     
 	     // 20.0
+		System.out.println(floatNum + doubleNum);
 	     // a ハロー true
+		System.out.println(CharStr + " " + str + " " + bool);
 	     // 11130.0                    数字を全て足す
-	     // 10000000000                小数点以外の数字を全てかける
-	     // 0.105                      10.5割る100をする
-	     // -90                        10引く100をする
+		System.out.println(byteNum + shortNum + intNum + longNum + floatNum + doubleNum);
+		// 11110
    	 	System.out.println(byteNum + shortNum + intNum + longNum);
+   	 	// 10000000000                小数点以外の数字を全てかける
    	 	System.out.println(byteNum * shortNum * intNum * longNum);
+   	 	// 0.105                      10.5割る100をする
    	 	System.out.println(doubleNum / shortNum);
+   	 	// -90                        10引く100をする
    	 	System.out.println(byteNum - shortNum);
    	 	
    	// Q5 
