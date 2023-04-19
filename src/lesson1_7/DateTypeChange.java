@@ -1,4 +1,4 @@
-package question1_7;
+package lesson1_7;
 
 public class DateTypeChange {
 
