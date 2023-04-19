@@ -78,10 +78,10 @@ public class Curriculum_New_1_4 {
 		// Q5 
 		// 次のプログラムを実行すると「ハローJAVA2023」という結果が表示されます。
 		//「ハローJAVA43」と表示とさせたいのですが、意図通りに動きません。正しく動作するように修正してください。
-		// String型をint型に変更し、ダブルクォーテーションを外す
-		int num = 20;
-		int num1 = 23;
-		System.out.println("ハローJAVA" + (num + num1));
+			// String型をint型に変更し、ダブルクォーテーションを外す
+			int num = 20;
+			int num1 = 23;
+			System.out.println("ハローJAVA" + (num + num1));
 	}
 
 }
