@@ -21,7 +21,9 @@ public class Practice {
 		int i;
 		//	ループ文、（変数iに１を代入; ）
 		for (i = 1; i < 21;) {
+			//	変数iに２を足す
 			i += 2;
+			//	コンソールに出力
 			System.out.println(i);
 		}
 	}
