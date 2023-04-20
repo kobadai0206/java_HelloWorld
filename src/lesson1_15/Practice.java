@@ -18,7 +18,7 @@ public class Practice {
 		// TODO 自動生成されたメソッド・スタブ
 		//	配列int test[][]に成績を格納
 		int[] test[] = {{64, 73, 69}, {58, 81, 75}, {86, 68, 79}, {72, 55, 80}};
-		//	配列testをループ
+		//	配列testをループ	
 		for (int i = 0; i < test.length; i++) {
 			//	コンソールに出力
 			System.out.println("生徒" + (i + 1) + "：国語" + test[i][0] + "点、数学" + test[i][1] + "点、英語" + test[i][2] + "点");
