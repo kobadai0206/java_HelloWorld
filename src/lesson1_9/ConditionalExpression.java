@@ -32,7 +32,7 @@ public class ConditionalExpression {
 		//	ランダム関数をインスタンス化
 		Random rand = new Random();
 		//	0から100までの乱数をscoreに代入
-		int score = rand.nextInt(100);
+		int score = rand.nextInt(101);
 		//	score が 40点以下かどうを判定
 		if (score <= 40) {
 			//	score が 40点以下の時の処理
