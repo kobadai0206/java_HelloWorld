@@ -72,16 +72,18 @@ public class Curriculum_New_1_18 {
 	
 
 	// Q7：引数にQ6で作成したメソッドの返り値を受け取り、受け取った値が50以上ならばtrueそれ以外はfalseを返しコンソールに出力してください
-	public static void bool(float num) {
+	public static boolean bool(float num) {
+		boolean b;
 		//	真偽値を判定
 		if (num >= 50) {
 			//	真の場合の処理
-			System.out.println(true);
+			b = true;
 		//	偽の場合
 		} else {
 			//	偽の場合の処理
-			System.out.println(false);
+			b = false;
 		}
+		return b;
 	}
 
 	public static void main(String[] args) {
@@ -112,7 +114,8 @@ public class Curriculum_New_1_18 {
 		System.out.println();
 		
 		// Q7 引数にQ6で作成したメソッドの返り値を受け取り、受け取った値が50以上ならばtrueそれ以外はfalseを返しコンソールに出力するメソッドを呼び出す
-		bool(res);
+		boolean b = bool(res);
+		System.out.println(b);
 	}
 
 }
