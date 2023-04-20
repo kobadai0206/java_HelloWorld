@@ -42,7 +42,7 @@ public class Variable2 {
 		//	Random関数をインスタンス
 		Random rand = new Random();
 		//	０〜１００までの数字をランダムに生成
-		int num = rand.nextInt(100);
+		int num = rand.nextInt(101);
 		//	あなたの年齢はおそらく〇〇歳ですね？出力
 		System.out.println("あなたの年齢はおそらく" + num + "歳ですね？");
 
