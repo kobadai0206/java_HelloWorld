@@ -41,6 +41,8 @@ public class DateTypeChange {
 //		④「②」で定義したint型変数に、String型の変数をint型に型変換して代入して下さい。
 		num = Integer.parseInt(str);
 //		　int型の変数をコンソールに出力して下さい。
+		System.out.println(num);
+		
 	}
 
 }
