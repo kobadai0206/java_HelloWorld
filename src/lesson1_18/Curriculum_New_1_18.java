@@ -24,12 +24,13 @@ public class Curriculum_New_1_18 {
 	}
 
 	// Q5：引数に整数を渡すと、1～100までのランダムな数字を引数の回数分格納して
-	public static int random(int[] randoms) {
+	public static int[] random(int[] randoms) {
 	// 格納した値を順番にコンソールで出力後、格納した値を返すメソッドを作成してください。
 		int[] integers = new int[randoms.length];
 		for(int i = 0; i < randoms.length; i++) {
-			System.out.println(randoms[i]);
-			return integers[i] = randoms[i];
+			System.out.println(randoms[101] + 1);
+			integers[i] = randoms[101] + 1;	
+			
 		}
 	// ※0は出力＆格納しないようにしてください。
 		return integers;
