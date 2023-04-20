@@ -23,7 +23,7 @@ public class Curriculum_New_1_4 {
 		byteNum = 0;
 		shortNum = 0;
 		intNum = 0;
-		longNum = 0l;
+		longNum = 0L;
 		floatNum = 0.0f;
 		doubleNum = 0.0d;
 		CharStr = '\u0000';
@@ -43,7 +43,7 @@ public class Curriculum_New_1_4 {
 		byteNum = 10;
 		shortNum = 100;
 		intNum = 1000;
-		longNum = 10000;
+		longNum = 10000L;
 		floatNum = 9.5f;
 		doubleNum = 10.5d;
 		CharStr = 'a';

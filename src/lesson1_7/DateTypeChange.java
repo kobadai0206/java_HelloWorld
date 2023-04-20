@@ -17,22 +17,29 @@ public class DateTypeChange {
 //		問２）
 //		以下のプログラムを作成してください。
 //		①double型変数 pi に数値「3.14」を代入して下さい。。
-//		②変数 pi に「3」を掛けた値をコンソールに出力して下さい。
-//		④int型の変数 integer を宣言し、変数 pi を int型に型変換しコンソールに出力して下さい。
 		double pi = 3.14d;
-		pi *= 3;
-		System.out.println(pi);
+//		②変数 pi に「3」を掛けた値をコンソールに出力して下さい。
+		System.out.println(pi * 3);
+//		④int型の変数 integer を宣言し、変数 pi を int型に型変換しコンソールに出力して下さい。
 		int integer = (int)pi;
 		System.out.println(integer);
 		
+		
 //		問３）
 //		①double型の変数を定義し、「2 + 6.0」を代入して下さい。
+		double dub = 2 + 6.0d;
 //		　double型の変数をコンソールに出力して下さい。
+		System.out.println(dub);
 //		②int型の変数を定義し、double型の変数をint型に型変換して代入下さい。
+		int num = (int)dub;
 //		　int型の変数をコンソールに出力して下さい。
+		System.out.println(num);
 //		③String型の変数を定義し、int型の変数をString型に型変換して代入して下さい。
+		String str = String.valueOf(num);
 //		　String型の変数をコンソールに出力して下さい。
+		System.out.println(str);
 //		④「②」で定義したint型変数に、String型の変数をint型に型変換して代入して下さい。
+		num = Integer.parseInt(str);
 //		　int型の変数をコンソールに出力して下さい。
 	}
 
