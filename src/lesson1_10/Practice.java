@@ -18,9 +18,9 @@ public class Practice {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		//	変数iを定義
-		int i;
-		//	ループ文、（変数iに１を代入; １ループごとに２増やす;）
-		for (i = 3; i <= 21; i += 2) {
+		int i = 1;
+		//	ループ文、（変数iに２を足す; １ループごとに２増やす;）
+		for (i += 2; i <= 21; i += 2) {
 			//	コンソールに出力
 			System.out.println(i);
 		}
