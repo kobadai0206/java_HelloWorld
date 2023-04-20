@@ -44,7 +44,7 @@ public class Curriculum_New_1_5 {
 
 		// Q2を下記に記載
 		//	BMIを出力
-		System.out.println("BMIは" + String.format("%.1f",weight /  ((height / 100) * (height / 100))) + "です。");
+		System.out.println("BMIは" + String.format("%.1f",weight /  ((height / 100) * (height / 100))) + "です");
 		
 		//	1行あけました。
 		System.out.println();
@@ -80,7 +80,7 @@ public class Curriculum_New_1_5 {
 		// 好きな食べ物はオムライスです出力
 		System.out.println("好きな食べ物は" + favorite + "です");
 		// BMIは22.6です出力
-		System.out.println("BMIは" + String.format("%.1f", weight /  ((height / 100) * (height / 100))) + "です。");
+		System.out.println("BMIは" + String.format("%.1f", weight /  ((height / 100) * (height / 100))) + "です");
 		// ↓↓コンソール最終結果↓↓
 
 		//	初めまして山田太郎です
