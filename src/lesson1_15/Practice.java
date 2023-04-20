@@ -21,7 +21,7 @@ public class Practice {
 		//	配列testをループ
 		for (int i = 0; i < test.length; i++) {
 			//	コンソールに出力
-			System.out.println("生徒" + (i + 1) + "：国語" + test[i][0] + "点、数学" + test[i][1] + "点、英語" + test[i][2]);
+			System.out.println("生徒" + (i + 1) + "：国語" + test[i][0] + "点、数学" + test[i][1] + "点、英語" + test[i][2] + "点");
 		}
 
 		//	配列testをループ
@@ -31,17 +31,17 @@ public class Practice {
 			//	変数iが0の時
 			case 0:
 				//	コンソールに出力
-				System.out.println("国語の平均点は" + (test[0][i] + test[1][i] + test[2][i] + test[3][i]) / (test.length));
+				System.out.println("国語の平均点は" + (test[0][i] + test[1][i] + test[2][i] + test[3][i]) / (test.length) + "点です。");
 				break;
 				//	変数iが1の時
 			case 1:
 				//	コンソールに出力
-				System.out.println("数学の平均点は" + (test[0][i] + test[1][i] + test[2][i] + test[3][i]) / (test.length));
+				System.out.println("数学の平均点は" + (test[0][i] + test[1][i] + test[2][i] + test[3][i]) / (test.length) + "点です。");
 				break;
 				//	変数iが2の時
 			case 2:
 				//	コンソールに出力
-				System.out.println("英語の平均点は" + (test[0][i] + test[1][i] + test[2][i] + test[3][i]) / (test.length));
+				System.out.println("英語の平均点は" + (test[0][i] + test[1][i] + test[2][i] + test[3][i]) / (test.length) + "点です。");
 				break;
 			} 
 		}

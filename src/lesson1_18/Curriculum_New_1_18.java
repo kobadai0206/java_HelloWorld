@@ -37,6 +37,11 @@ public class Curriculum_New_1_18 {
 	}
 
 	// Q6：引数にQ5で作成したメソッドの返り値を受け取り、受け取った配列の要素の平均値をコンソールに出力するメソッドを作成してください。
+	public static void avg(int[] integers) {
+		for(int i = 0; i < integers.length; i++) {
+			int total = integers[1];
+		}
+	}
 	// ※小数点以下も表示されるようにしてください。
 
 	// Q7：引数にQ6で作成したメソッドの返り値を受け取り、受け取った値が50以上ならばtrueそれ以外はfalseを返しコンソールに出力してください
