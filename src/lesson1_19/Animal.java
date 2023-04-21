@@ -13,9 +13,13 @@ public class Animal {
 		System.out.println(d.num);
 
 		// 現在の日時を「yyyy-MM-dd H:m:s」形式で変数に代入して、コンソールに出力してください
+		// LocalDateTimeインスタンス化
 		LocalDateTime date = LocalDateTime.now();
+		//	表示形式を変更
 		DateTimeFormatter datetime = DateTimeFormatter.ofPattern("yyyy/MM/dd/ H:m:s");
+		//	インスタンス化した変数を表示形式に合わせる
 		String datetimeformated = datetime.format(date);
+		//	出力
 		System.out.println(datetimeformated);
         
 	}
